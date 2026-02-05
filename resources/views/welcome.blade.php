@@ -11,8 +11,8 @@
         content="transport, logistics, shipping, freight, courier, supply chain, trucking, delivery, warehouse, cargo, transport company, responsive template">
     <meta name="author" content="theme-village">
     <title>Viện Dầu khí Việt Nam</title>
-    <link rel="apple-touch-icon" href="images/logo.png">
-    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -113,7 +113,7 @@
             <div class="header-nav-wrapper header-sticky">
                 <nav class="navbar navbar-expand-xl">
                     <div class="container">
-                        <a href="index.html" class="navbar-brand">
+                        <a href="#" class="navbar-brand">
                             <img src="images/full-logo.png" alt="logo" class="img-fluid">
                         </a>
                         <button class="navbar-toggler offcanvas-nav-btn" type="button">
@@ -134,14 +134,14 @@
                                             d="M0 .75Q.063.063.75 0h12.5q.687.063.75.75-.063.687-.75.75H.75Q.063 1.437 0 .75m0 5Q.063 5.063.75 5h12.5q.687.063.75.75-.063.687-.75.75H.75Q.063 6.437 0 5.75m13.25 5.75H.75q-.687-.063-.75-.75.063-.687.75-.75h12.5q.687.063.75.75-.063.687-.75.75" />
                                     </svg>
                                 </button>
-                                <a href="quote.html" class="btn btn-primary"> Đăng nhập
+                                <a href="#" class="btn btn-primary"> Đăng nhập
                                 </a>
 
                             </div>
                         </div>
                         <div class="offcanvas offcanvas-start offcanvas-nav">
                             <div class="offcanvas-header">
-                                <a href="index.html" class="text-inverse"><img src="images/logo.svg" alt="Logo"></a>
+                                <a href="#" class="text-inverse"><img src="images/logo.svg" alt="Logo"></a>
                                 <button type="button" class="btn-close bg-primary" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                             </div>
@@ -149,19 +149,19 @@
                             <div class="offcanvas-body pt-0 align-items-center justify-content-between">
                                 <ul class="navbar-nav mx-auto align-items-lg-center">
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link " href="index.html">Trang chủ</a>
+                                        <a class="nav-link " href="#">Trang chủ</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link " href="services.html">Sản phẩm</a>
+                                        <a class="nav-link " href="#">Sản phẩm</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link " href="services.html">Dịch vụ</a>
+                                        <a class="nav-link " href="#">Dịch vụ</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link " href="services.html">Tuyển dụng</a>
+                                        <a class="nav-link " href="#">Tuyển dụng</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Liên hệ</a>
+                                        <a class="nav-link" href="#">Liên hệ</a>
                                     </li>
                                 </ul>
 
@@ -443,7 +443,7 @@
                 <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
                     <div class="footer-widget about-footer">
                         <div class="f-logo">
-                            <a href="index.html"><img src="images/full-logo.png" alt="Logo" style="width: 100%;"></a>
+                            <a href="#"><img src="images/full-logo.png" alt="Logo" style="width: 100%;"></a>
                         </div>
                         <p>Tiên phong khoa học công nghệ vì an ninh năng lượng quốc gia</p>
                         <div class="social-share">
@@ -459,12 +459,12 @@
                     <div class="footer-widget">
                         <h3 class="widget-title">Liên kết nhanh</h3>
                         <ul>
-                            <li><a href="about.html">Giới thiệu</a></li>
-                            <li><a href="services.html">Lĩnh vực hoạt động</a></li>
-                            <li><a href="projects.html">Dự án tiêu biểu</a></li>
-                            <li><a href="faq.html">Câu hỏi thường gặp</a></li>
-                            <li><a href="blog.html">Tin tức & Sự kiện</a></li>
-                            <li><a href="contact.html">Liên hệ</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Lĩnh vực hoạt động</a></li>
+                            <li><a href="#">Dự án tiêu biểu</a></li>
+                            <li><a href="#">Câu hỏi thường gặp</a></li>
+                            <li><a href="#">Tin tức & Sự kiện</a></li>
+                            <li><a href="#">Liên hệ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -500,7 +500,7 @@
                                 <span>167 Trung Kính, Yên Hoà, <br> Cầu Giấy, Hà Nội</span>
                             </div>
                         </div>
-                        <a href="contact.html" class="btn btn-info btn-xs mt-4">Liên hệ <span></span></a>
+                        <a href="#" class="btn btn-info btn-xs mt-4">Liên hệ <span></span></a>
                     </div>
                 </div>
             </div>
