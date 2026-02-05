@@ -1,132 +1,588 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="zxx">
 
-        <title>Laravel</title>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Viện Dầu khí Việt Nam">
+    <meta name="keywords"
+        content="transport, logistics, shipping, freight, courier, supply chain, trucking, delivery, warehouse, cargo, transport company, responsive template">
+    <meta name="author" content="theme-village">
+    <title>Viện Dầu khí Việt Nam</title>
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <link rel="shortcut icon" href="images/logo.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/jarallax.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/jquery.datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-        <!-- Styles -->
-        <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.dark\:text-gray-500{--tw-text-opacity:1;color:#6b7280;color:rgba(107,114,128,var(--tw-text-opacity))}}
-        </style>
+<body>
+    <div class="main-overlay"></div>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
 
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+    <!-- Canvas Menu Start -->
+    <div class="canvas-menu d-flex flex-column">
+        <div class="d-flex justify-content-between w-100 mb-4">
+            <!-- Logo Here -->
+            <div class="logo">
+                <img src="images/full-logo.png" alt="Logo">
+            </div>
+            <!-- Close Button -->
+            <button type="button" class="canvas-close" aria-label="Close">
+                <svg width="33" height="34" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.19141 9.80762L27.5762 28.1924" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M9.19141 28.1924L27.5762 9.80761" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+        </div>
+        <p>Viện Dầu khí Việt Nam được thành lập vào ngày 22/5/1978 trên cơ sở Đoàn Nghiên cứu Địa chất Dầu khí Chuyên đề 36B thuộc Tổng cục Địa chất.</p>
+        <!-- Vertical Menu Start-->
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+        <div class="mt-3">
+            <h5>Dịch vụ</h5>
+            <nav class="mt-4">
+                <ul class="vertical-menu">
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
 
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                        <g clip-path="url(#clip0)" fill="#EF3B2D">
-                            <path d="M248.032 44.676h-16.466v100.23h47.394v-14.748h-30.928V44.676zM337.091 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.431 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162-.001 2.863-.479 5.584-1.432 8.161zM463.954 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.432 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162 0 2.863-.479 5.584-1.432 8.161zM650.772 44.676h-15.606v100.23h15.606V44.676zM365.013 144.906h15.607V93.538h26.776V78.182h-42.383v66.724zM542.133 78.182l-19.616 51.096-19.616-51.096h-15.808l25.617 66.724h19.614l25.617-66.724h-15.808zM591.98 76.466c-19.112 0-34.239 15.706-34.239 35.079 0 21.416 14.641 35.079 36.239 35.079 12.088 0 19.806-4.622 29.234-14.688l-10.544-8.158c-.006.008-7.958 10.449-19.832 10.449-13.802 0-19.612-11.127-19.612-16.884h51.777c2.72-22.043-11.772-40.877-33.023-40.877zm-18.713 29.28c.12-1.284 1.917-16.884 18.589-16.884 16.671 0 18.697 15.598 18.813 16.884h-37.402zM184.068 43.892c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002-35.648-20.524a2.971 2.971 0 00-2.964 0l-35.647 20.522-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v38.979l-29.706 17.103V24.493a3 3 0 00-.103-.776c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002L40.098 1.396a2.971 2.971 0 00-2.964 0L1.487 21.919l-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v122.09c0 1.063.568 2.044 1.489 2.575l71.293 41.045c.156.089.324.143.49.202.078.028.15.074.23.095a2.98 2.98 0 001.524 0c.069-.018.132-.059.2-.083.176-.061.354-.119.519-.214l71.293-41.045a2.971 2.971 0 001.489-2.575v-38.979l34.158-19.666a2.971 2.971 0 001.489-2.575V44.666a3.075 3.075 0 00-.106-.774zM74.255 143.167l-29.648-16.779 31.136-17.926.001-.001 34.164-19.669 29.674 17.084-21.772 12.428-43.555 24.863zm68.329-76.259v33.841l-12.475-7.182-17.231-9.92V49.806l12.475 7.182 17.231 9.92zm2.97-39.335l29.693 17.095-29.693 17.095-29.693-17.095 29.693-17.095zM54.06 114.089l-12.475 7.182V46.733l17.231-9.92 12.475-7.182v74.537l-17.231 9.921zM38.614 7.398l29.693 17.095-29.693 17.095L8.921 24.493 38.614 7.398zM5.938 29.632l12.475 7.182 17.231 9.92v79.676l.001.005-.001.006c0 .114.032.221.045.333.017.146.021.294.059.434l.002.007c.032.117.094.222.14.334.051.124.088.255.156.371a.036.036 0 00.004.009c.061.105.149.191.222.288.081.105.149.22.244.314l.008.01c.084.083.19.142.284.215.106.083.202.178.32.247l.013.005.011.008 34.139 19.321v34.175L5.939 144.867V29.632h-.001zm136.646 115.235l-65.352 37.625V148.31l48.399-27.628 16.953-9.677v33.862zm35.646-61.22l-29.706 17.102V66.908l17.231-9.92 12.475-7.182v33.841z"/>
-                        </g>
-                    </svg>
-                </div>
+        <!-- social icons -->
+        <div class="social-share null mt-3">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <a href="#" class="btn btn-primary mt-5"> Đăng nhập <i class="fa fa-arrow-right"></i><span></span></a>
+    </div>
+    <!-- Canvas Menu End -->
 
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                        <div class="p-6">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Documentation</a></div>
-                            </div>
+    <div class="search-popup offcanvas offcanvas-top" id="offcanvas-search" data-bs-scroll="true">
+        <div class="container d-flex flex-row py-5 align-items-center position-relative">
+            <button type="button" class="btn-close bg-primary rounded-5" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            <div class="col-lg-9 mx-auto">
+                <form class="search-form w-100 mb-5">
+                    <input id="search-form" type="text" class="form-control shadow-1"
+                        placeholder="Type keyword and hit enter">
+                </form>
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
-                                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Start -->
+    <header class="header header-default">
+        <div class="sticky-height"></div>
+        <div class="header-wrapper">
+            <!-- Navigation Menu Start -->
+            <div class="header-nav-wrapper header-sticky">
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="images/full-logo.png" alt="logo" class="img-fluid">
+                        </a>
+                        <button class="navbar-toggler offcanvas-nav-btn" type="button">
+                            Menu <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none"
+                                viewBox="0 0 14 12">
+                                <path fill="#020e28"
+                                    d="M0 .75Q.063.063.75 0h12.5q.687.063.75.75-.063.687-.75.75H.75Q.063 1.437 0 .75m0 5Q.063 5.063.75 5h12.5q.687.063.75.75-.063.687-.75.75H.75Q.063 6.437 0 5.75m13.25 5.75H.75q-.687-.063-.75-.75.063-.687.75-.75h12.5q.687.063.75.75-.063.687-.75.75" />
+                            </svg>
+                        </button>
+                        <div class="nav-cta d-none d-md-flex order-lg-3">
+                            <div class="d-flex align-items-center justify-content-between gap-2">
+                                <a href="#" class="icon-lg bg-light rounded-circle" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvas-search"><i class="fa fa-search"></i></a>
+                                <button class="burger-menu icon-lg bg-light rounded-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none"
+                                        viewBox="0 0 14 12">
+                                        <path fill="#020e28"
+                                            d="M0 .75Q.063.063.75 0h12.5q.687.063.75.75-.063.687-.75.75H.75Q.063 1.437 0 .75m0 5Q.063 5.063.75 5h12.5q.687.063.75.75-.063.687-.75.75H.75Q.063 6.437 0 5.75m13.25 5.75H.75q-.687-.063-.75-.75.063-.687.75-.75h12.5q.687.063.75.75-.063.687-.75.75" />
+                                    </svg>
+                                </button>
+                                <a href="quote.html" class="btn btn-primary"> Đăng nhập
+                                </a>
+
                             </div>
                         </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
+                        <div class="offcanvas offcanvas-start offcanvas-nav">
+                            <div class="offcanvas-header">
+                                <a href="index.html" class="text-inverse"><img src="images/logo.svg" alt="Logo"></a>
+                                <button type="button" class="btn-close bg-primary" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
                             </div>
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </div>
+                            <div class="offcanvas-body pt-0 align-items-center justify-content-between">
+                                <ul class="navbar-nav mx-auto align-items-lg-center">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link " href="index.html">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link " href="services.html">Sản phẩm</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link " href="services.html">Dịch vụ</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link " href="services.html">Tuyển dụng</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Liên hệ</a>
+                                    </li>
+                                </ul>
+
                             </div>
                         </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <section class="slider-section position-relative">
+        <img src="images/tranck-v.png" alt="Truck delivery illustration" class="anim-img moveXS bottom-0">
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </div>
+        <div class="container-fluid p-0">
+            <div class="row g-0 align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="hero-content position-relative">
+                        <div class="trust-badge">
+                            <div class="icon rounded-circle">
+                                <img src="images/logo.png" alt="Bookmark icon" style="width: 100%;">
                             </div>
                         </div>
+                        <p class="sub-title h4">Vietnam Petroleum Institute</p>
+                        <h1 class="text-info fw-bold">Viện Dầu khí <br> Việt Nam</h1>
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
-                                </div>
-                            </div>
+                        <div class="slide-meta">
+                            <p class="h6 text-info">Viện Dầu khí Việt Nam là đơn vị khoa học–công nghệ nòng cốt, tiên phong đổi mới và giải pháp chiến lược, phát triển bền vững.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-500 sm:text-left">
-                        <div class="flex items-center">
-                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="-mt-px w-5 h-5 text-gray-400">
-                                <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                            </svg>
-
-                            <a href="https://laravel.bigcartel.com" class="ml-1 underline">
-                                Shop
-                            </a>
-
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="ml-4 -mt-px w-5 h-5 text-gray-400">
-                                <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                            </svg>
-
-                            <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline">
-                                Sponsor
-                            </a>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="hero-slider-wrap overflow-hidden position-relative">
+                        <div class="hero-slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slide-img" style="min-height: 100vh;">
+                                        <img src="images/slide-new-1.png" alt="Logistics warehouse management" style="height: 100vh; width: auto;">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slide-img">
+                                        <img src="images/slide-new-2.png" alt="Global shipping transport" style="height: 100vh; width: auto;">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="custom-nav">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+    </section>
+    <!-- Slider Section End -->
+
+    <!-- About Section Start -->
+    <section class="about-section position-relative sec-padding">
+        <img src="images/about-sh.png" alt="shape" class="anim-img moveY">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-media position-relative">
+                        <div class="about-m1">
+                            <img class="round img-fluid" src="images/slide-new-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <span class="sub-title fadeInUp">
+                            Về chúng tôi</span>
+                        <h2 class="sec-title">Viện Dầu khí Việt Nam khoa học công nghệ</h2>
+                        <p>Thành lập năm 1978, Viện tiên phong nghiên cứu, tư vấn chiến lược, phát triển và chuyển giao công nghệ, đóng góp an ninh năng lượng, chuyển dịch năng lượng.</p>
+
+                        <ul class="check">
+                            <li>Đơn vị khoa học–công nghệ nòng cốt của Tập đoàn Công nghiệp – Năng lượng Quốc gia Việt Nam</li>
+                            <li>Trung tâm nghiên cứu, tư vấn, đào tạo và đổi mới công nghệ toàn chuỗi dầu khí – năng lượng</li>
+                        </ul>
+                        <div class="d-sm-flex align-items-center about-footer gap-5 mt-5">
+                            <a href="#" class="btn btn-primary">Xem thêm <i
+                                    class="fa fa-arrow-right"></i><span></span> </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+
+    <!-- Process Section Start -->
+    <section class="process-sec sec-padding position-relative overflow-hidden">
+        <div class="container">
+            <div class="sec-intro mx-auto text-center">
+                <span class="sub-title fadeInUp"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" fill="none"
+                        viewBox="0 0 30 18">
+                        <path fill="#009c48"
+                            d="M8.125 15.429h-2.5a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188h2.5c.166 0 .325.068.442.188a.65.65 0 0 1 0 .91.62.62 0 0 1-.442.188m20.313 0h-1.563a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188h1.044l.842-4.618c-.011-2.364-1.973-4.382-4.386-4.382h-4.104l-1.989 9h3.593c.166 0 .325.068.442.188a.653.653 0 0 1 0 .91.62.62 0 0 1-.442.188H17.5a.61.61 0 0 1-.488-.242.65.65 0 0 1-.122-.543L19.162 4.36a.65.65 0 0 1 .22-.361.6.6 0 0 1 .39-.14h4.603C27.476 3.857 30 6.452 30 9.642l-.949 5.261a.65.65 0 0 1-.214.377.6.6 0 0 1-.4.148" />
+                        <path fill="#009c48"
+                            d="M24.375 18c-1.722 0-3.125-1.441-3.125-3.214s1.403-3.215 3.125-3.215c1.723 0 3.125 1.442 3.125 3.215S26.098 18 24.375 18m0-5.143c-1.034 0-1.875.866-1.875 1.929s.841 1.928 1.875 1.928 1.875-.865 1.875-1.928-.841-1.929-1.875-1.929M10.625 18C8.903 18 7.5 16.559 7.5 14.786s1.403-3.215 3.125-3.215c1.723 0 3.125 1.442 3.125 3.215S12.348 18 10.625 18m0-5.143c-1.034 0-1.875.866-1.875 1.929s.841 1.928 1.875 1.928 1.875-.865 1.875-1.928c0-1.064-.841-1.929-1.875-1.929m-2.5-9h-5a.62.62 0 0 1-.442-.188.65.65 0 0 1 0-.91.62.62 0 0 1 .442-.188h5c.166 0 .325.068.442.189a.65.65 0 0 1 0 .909.62.62 0 0 1-.442.188m0 3.857h-6.25a.62.62 0 0 1-.442-.188.65.65 0 0 1 0-.91.62.62 0 0 1 .442-.187h6.25c.166 0 .325.067.442.188a.65.65 0 0 1 0 .909.62.62 0 0 1-.442.188m0 3.857h-7.5a.62.62 0 0 1-.442-.188.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188h7.5c.166 0 .325.067.442.188a.65.65 0 0 1 0 .91.62.62 0 0 1-.442.187" />
+                        <path fill="#009c48"
+                            d="M17.5 15.429h-4.375a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188H17l2.84-12.857H5.625a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909A.62.62 0 0 1 5.625 0h15a.61.61 0 0 1 .488.241.65.65 0 0 1 .122.543L18.11 14.927a.65.65 0 0 1-.22.36.6.6 0 0 1-.39.142" />
+                    </svg>Quy trình hoạt động</span>
+                <h2 class="sec-title">Giải pháp khoa học – công nghệ phục vụ ngành công nghiệp năng lượng</h2>
+            </div>
+            <div class="process-wrapper d-flex justify-content-between flex-wrap mt-5">
+                <div class="process-card text-center fadeInUp" data-delay=".2">
+                    <span class="count mx-auto icon-lg bg-shade rounded-circle">01</span>
+                    <div class="process-thumb rounded-circle d-flex align-items-center justify-content-center" style="overflow: hidden;">
+                        <img src="images/slide-new-1.png" alt="request pickup" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <h3 class="display-4">Tiếp nhận nhu cầu nghiên cứu</h3>
+                    <p>Tiếp nhận đề bài nghiên cứu, tư vấn khoa học – công nghệ từ Tập đoàn và các đơn vị đối tác.</p>
+                </div>
+
+                <div class="process-card text-center fadeInUp" data-delay=".4">
+                    <span class="count mx-auto icon-lg bg-shade rounded-circle">02</span>
+                    <div class="process-thumb rounded-circle d-flex align-items-center justify-content-center" style="overflow: hidden;">
+                        <img src="images/slide-new-1.png" alt="request pickup" style="width: 100%;">
+                    </div>
+                    <h3 class="display-4">Phân tích và triển khai nghiên cứu</h3>
+                    <p>Phân tích dữ liệu, đánh giá kỹ thuật, phát triển giải pháp khoa học – công nghệ phù hợp thực tiễn.</p>
+                </div>
+
+                <div class="process-card text-center fadeInUp" data-delay=".6">
+                    <span class="count mx-auto icon-lg bg-shade rounded-circle">03</span>
+                    <div class="process-thumb rounded-circle d-flex align-items-center justify-content-center" style="overflow: hidden;">
+                        <img src="images/slide-new-1.png" alt="request pickup" style="width: 100%;">
+                    </div>
+                    <h3 class="display-4">Ứng dụng và chuyển giao công nghệ</h3>
+                    <p>ng dụng kết quả nghiên cứu, chuyển giao công nghệ và hỗ trợ triển khai vào sản xuất – kinh doanh.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Process Section End -->
+
+    <!-- Choose Section Start -->
+    <section class="choose-sec bg-shade sec-padding position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="choose-media position-relative">
+                        <img class="img-fluid" src="images/choose-img.png" alt="Choose Image">
+                        <img class="abs-img img-fluid" src="images/choose-img2.png" alt="Choose Image 2">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="choose-content">
+                        <span class="sub-title fadeInUp"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="18"
+                                fill="none" viewBox="0 0 30 18">
+                                <path fill="#009c48"
+                                    d="M8.125 15.429h-2.5a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188h2.5c.166 0 .325.068.442.188a.65.65 0 0 1 0 .91.62.62 0 0 1-.442.188m20.313 0h-1.563a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188h1.044l.842-4.618c-.011-2.364-1.973-4.382-4.386-4.382h-4.104l-1.989 9h3.593c.166 0 .325.068.442.188a.653.653 0 0 1 0 .91.62.62 0 0 1-.442.188H17.5a.61.61 0 0 1-.488-.242.65.65 0 0 1-.122-.543L19.162 4.36a.65.65 0 0 1 .22-.361.6.6 0 0 1 .39-.14h4.603C27.476 3.857 30 6.452 30 9.642l-.949 5.261a.65.65 0 0 1-.214.377.6.6 0 0 1-.4.148" />
+                                <path fill="#009c48"
+                                    d="M24.375 18c-1.722 0-3.125-1.441-3.125-3.214s1.403-3.215 3.125-3.215c1.723 0 3.125 1.442 3.125 3.215S26.098 18 24.375 18m0-5.143c-1.034 0-1.875.866-1.875 1.929s.841 1.928 1.875 1.928 1.875-.865 1.875-1.928-.841-1.929-1.875-1.929M10.625 18C8.903 18 7.5 16.559 7.5 14.786s1.403-3.215 3.125-3.215c1.723 0 3.125 1.442 3.125 3.215S12.348 18 10.625 18m0-5.143c-1.034 0-1.875.866-1.875 1.929s.841 1.928 1.875 1.928 1.875-.865 1.875-1.928c0-1.064-.841-1.929-1.875-1.929m-2.5-9h-5a.62.62 0 0 1-.442-.188.65.65 0 0 1 0-.91.62.62 0 0 1 .442-.188h5c.166 0 .325.068.442.189a.65.65 0 0 1 0 .909.62.62 0 0 1-.442.188m0 3.857h-6.25a.62.62 0 0 1-.442-.188.65.65 0 0 1 0-.91.62.62 0 0 1 .442-.187h6.25c.166 0 .325.067.442.188a.65.65 0 0 1 0 .909.62.62 0 0 1-.442.188m0 3.857h-7.5a.62.62 0 0 1-.442-.188.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188h7.5c.166 0 .325.067.442.188a.65.65 0 0 1 0 .91.62.62 0 0 1-.442.187" />
+                                <path fill="#009c48"
+                                    d="M17.5 15.429h-4.375a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188H17l2.84-12.857H5.625a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909A.62.62 0 0 1 5.625 0h15a.61.61 0 0 1 .488.241.65.65 0 0 1 .122.543L18.11 14.927a.65.65 0 0 1-.22.36.6.6 0 0 1-.39.142" />
+                            </svg>Vì sao chọn chúng tôi</span>
+                        <h2 class="sec-title">Lý do Viện Dầu khí Việt Nam là đơn vị khoa học – công nghệ hàng đầu ngành năng lượng</h2>
+                        <p>Viện Dầu khí Việt Nam sở hữu hơn 45 năm kinh nghiệm nghiên cứu, đội ngũ chuyên gia đầu ngành và năng lực triển khai đồng bộ trên toàn chuỗi giá trị dầu khí – năng lượng, đáp ứng yêu cầu phát triển bền vững và chuyển dịch năng lượng quốc gia.</p>
+                        <div class="success-stat">
+                            <div class="progress">
+                                <div class="meta">Scientific Research Capacity</div>
+                                <div class="progress-bar" data-progress="55%" style="width: 65%;">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="meta">Technology Application & Transfer</div>
+                                <div class="progress-bar" data-progress="87%" style="width: 87%;">
+                                    <span>87%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-sm-flex justify-content-between mb-5">
+                            <div class="choose-circle d-flex gap-2 align-items-center">
+                                <div class="progress-circle-item">
+                                    <div class="outer">
+                                        <div class="inner">
+                                            <div class="number" data-target="95">0%</div>
+                                        </div>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="80px" height="80px">
+                                        <circle cx="40" cy="40" r="30" class="progress-stroke" />
+                                    </svg>
+                                </div>
+                                <h3 class="display-4 m-0">Strategic Consulting Effectiveness</h3>
+                            </div>
+
+                            <div class="choose-circle d-flex gap-2 align-items-center">
+                                <div class="progress-circle-item">
+                                    <div class="outer">
+                                        <div class="inner">
+                                            <div class="number" data-target="90">0%</div>
+                                        </div>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="80px" height="80px">
+                                        <circle cx="40" cy="40" r="30" class="progress-stroke" />
+                                    </svg>
+                                </div>
+                                <h3 class="display-4 m-0">Project Implementation Success Rate</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Choose Section End -->
+
+
+    <!-- Blog Section Start -->
+    <section class="blog-sec sec-padding">
+        <div class="container">
+            <div class="sec-intro mx-auto text-center">
+                <h2 class="sec-title">TIN TỨC & NHẬN ĐỊNH</h2>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-xl-4 col-md-6">
+                    <div class="blog-entry fadeInUp" data-delay=".2">
+                        <div class="entry-thumb">
+                            <a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp"><img src="images/blog1.jpg" alt="Blog"></a>
+                        </div>
+                        <div class="entry-meta">
+                            <span><a href="#"><i class="fa-regular fa-user"></i> Adam Smith</a></span>
+                            <span><i class="fa-regular fa-calendar-days"></i> 05 Dec 2025</span>
+                        </div>
+                        <h3 class="display-4"><a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp">VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp</a></h3>
+
+                    </div>
+                </div><!--  Blog Entry End -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="blog-entry fadeInUp" data-delay=".4">
+                        <div class="entry-thumb">
+                            <a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp"><img src="images/blog2.jpg" alt="Blog"></a>
+                        </div>
+                        <div class="entry-meta">
+                            <span><a href="#"><i class="fa-regular fa-user"></i> Adam Smith</a></span>
+                            <span><i class="fa-regular fa-calendar-days"></i> 05 Dec 2025</span>
+                        </div>
+                        <h3 class="display-4"><a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp">VPI và OC Global hợp tác nghiên cứu phát triển cảng hậu cần phục vụ điện gió ngoài khơi tại Việt Nam</a></h3>
+
+                    </div>
+                </div><!--  Blog Entry End -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="blog-entry fadeInUp" data-delay=".6">
+                        <div class="entry-thumb">
+                            <a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp"><img src="images/blog3.jpg" alt="Blog"></a>
+                        </div>
+                        <div class="entry-meta">
+                            <span><a href="#"><i class="fa-regular fa-user"></i> Adam Smith</a></span>
+                            <span><i class="fa-regular fa-calendar-days"></i> 05 Dec 2025</span>
+                        </div>
+                        <h3 class="display-4"><a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp">VPI giữ vai trò hạt nhân nghiên cứu khoa học, đổi mới sáng tạo của Petrovietnam</a></h3>
+
+                    </div>
+                </div><!--  Blog Entry End -->
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer bg-cover jarallax" data-jarallax data-speed=".2">
+        <img src="images/footer-bg.jpg" alt="" class="jarallax-img">
+        <div class="parallax-overly"></div>
+        <div class="container">
+            <div class="row footer-widgets">
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                    <div class="footer-widget about-footer">
+                        <div class="f-logo">
+                            <a href="index.html"><img src="images/full-logo.png" alt="Logo" style="width: 100%;"></a>
+                        </div>
+                        <p>Tiên phong khoa học công nghệ vì an ninh năng lượng quốc gia</p>
+                        <div class="social-share">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 offset-sm-1 offset-lg-0">
+                    <div class="footer-widget">
+                        <h3 class="widget-title">Liên kết nhanh</h3>
+                        <ul>
+                            <li><a href="about.html">Giới thiệu</a></li>
+                            <li><a href="services.html">Lĩnh vực hoạt động</a></li>
+                            <li><a href="projects.html">Dự án tiêu biểu</a></li>
+                            <li><a href="faq.html">Câu hỏi thường gặp</a></li>
+                            <li><a href="blog.html">Tin tức & Sự kiện</a></li>
+                            <li><a href="contact.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 ps-lg-5 col-sm-6">
+                    <div class="footer-widget">
+                        <h3 class="widget-title">Lĩnh vực hoạt động</h3>
+                        <ul>
+                            <li><a href="#">Nghiên cứu khoa học</a></li>
+                            <li><a href="#">Chuyển giao công nghệ</a></li>
+                            <li><a href="#">Phát triển cảng hậu cần điện gió</a></li>
+                            <li><a href="#">Giải pháp phát thải carbon thấp</a></li>
+                            <li><a href="#">Hợp tác quốc tế</a></li>
+                            <li><a href="#">Đổi mới sáng tạo</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 offset-sm-1 offset-lg-0">
+                    <div class="footer-widget contact-widget">
+                        <h3 class="widget-title">Thông tin liên hệ</h3>
+                        <div class="opening-inner">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <span>Điện thoại</span>
+                                <span>0243. 1234567</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <span>Email</span>
+                                <span>info@vpi.pvn.vn</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <span>Địa chỉ</span>
+                                <span>167 Trung Kính, Yên Hoà, <br> Cầu Giấy, Hà Nội</span>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="btn btn-info btn-xs mt-4">Liên hệ <span></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="d-flex flex-wrap justify-content-between align-items-center">
+                    <p class="text-info copy-right mb-0 order-2 order-md-1">
+                        Copyright &copy; 2026 <a href="#">Viện Dầu khí Việt Nam</a> All Rights Reserved.</p>
+                    <nav class="footer-nav order-1 order-md-2">
+                        <ul>
+                            <li><a href="#">Privacy Policy </a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Scroll Top -->
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" height="100%" viewBox="-1 -1 102 102" width="100%">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" fill="none" stroke="black" stroke-width="2">
+            </path>
+        </svg>
+    </div>
+
+
+    <!--Javascript
+========================================================-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/lenis.min.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/SplitText.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/purecounter.js"></script>
+    <script src="js/jquery.marquee.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"389fa74406c44f21b129709ce8a3ec16","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+    <script>
+        (function() {
+            function c() {
+                var b = a.contentDocument || a.contentWindow.document;
+                if (b) {
+                    var d = b.createElement('script');
+                    d.innerHTML = "window.__CF$cv$params={r:'9c142c508aa39f97',t:'MTc2ODk3MDg0MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                    b.getElementsByTagName('head')[0].appendChild(d)
+                }
+            }
+            if (document.body) {
+                var a = document.createElement('iframe');
+                a.height = 1;
+                a.width = 1;
+                a.style.position = 'absolute';
+                a.style.top = 0;
+                a.style.left = 0;
+                a.style.border = 'none';
+                a.style.visibility = 'hidden';
+                document.body.appendChild(a);
+                if ('loading' !== document.readyState) c();
+                else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
+                else {
+                    var e = document.onreadystatechange || function() {};
+                    document.onreadystatechange = function(b) {
+                        e(b);
+                        'loading' !== document.readyState && (document.onreadystatechange = e, c())
+                    }
+                }
+            }
+        })();
+    </script>
+</body>
+
 </html>
