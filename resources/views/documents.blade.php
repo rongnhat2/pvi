@@ -107,10 +107,10 @@
                             @else
                                 <div class="text-center py-4">
                                     <i class="bi bi-exclamation-circle text-primary display-5 mb-3"></i>
-                                    <h5 class="text-primary mb-3">Bạn cần <a href="{{ route('login') }}"
+                                    <h5 class="text-primary mb-3">Bạn cần <a href="#"
                                             class="text-primary text-decoration-underline">đăng nhập</a> để xem tài liệu riêng
                                         tư</h5>
-                                    <a href="{{ route('login') }}" class="btn btn-primary">Đăng nhập</a>
+                                    <a href="#" class="btn btn-primary">Đăng nhập</a>
                                 </div>
                             @endif
                         </div>
