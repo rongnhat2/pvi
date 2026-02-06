@@ -37,7 +37,7 @@
         <div class="container">
             <div class="sec-intro mx-auto text-center mb-5">
                 <span class="sub-title fadeInUp">PHÂN LOẠI DỊCH VỤ</span>
-                <h2 class="sec-title display-5 fw-bold mb-2">Các Nhóm Năng Lực Dịch Vụ</h2>
+                <h2 class="sec-title mb-2">Các Nhóm Năng Lực Dịch Vụ</h2>
                 <p class="mt-2 mb-0 text-secondary">Khám phá các giải pháp nổi bật của Viện Dầu khí Việt Nam</p>
             </div>
             <div class="row g-4">

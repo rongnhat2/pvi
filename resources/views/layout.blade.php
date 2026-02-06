@@ -74,7 +74,8 @@
                     <li><a href="/about">Giới thiệu</a></li>
                     <li><a href="/product">Sản phẩm</a></li>
                     <li><a href="/service">Dịch vụ</a></li>
-                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="/recruitment">Tuyển dụng</a></li>
+                    <li><a href="/documents">Tài liệu</a></li>
                     <li><a href="/contact">Liên hệ</a></li>
                 </ul>
             </nav>
@@ -162,7 +163,10 @@
                                         <a class="nav-link " href="/service">Dịch vụ</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link " href="#">Tuyển dụng</a>
+                                        <a class="nav-link " href="/recruitment">Tuyển dụng</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link " href="/documents">Tài liệu</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="/contact">Liên hệ</a>

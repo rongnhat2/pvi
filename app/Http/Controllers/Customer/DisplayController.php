@@ -29,6 +29,14 @@ class DisplayController extends Controller
     {
         return view('services');
     }
+    public function recruitment()
+    {
+        return view('recruitment');
+    }
+    public function documents()
+    {
+        return view('documents');
+    }
 
     //
 }
