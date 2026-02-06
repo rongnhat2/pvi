@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="Viện Dầu khí Việt Nam">
+    <meta name="description" content="Viện Dầu khí Việt Nam">
     <meta name="keywords"
         content="transport, logistics, shipping, freight, courier, supply chain, trucking, delivery, warehouse, cargo, transport company, responsive template">
     <meta name="author" content="theme-village">
@@ -17,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
     <!-- CSS Files -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -64,7 +63,8 @@
                 </svg>
             </button>
         </div>
-        <p>Viện Dầu khí Việt Nam được thành lập vào ngày 22/5/1978 trên cơ sở Đoàn Nghiên cứu Địa chất Dầu khí Chuyên đề 36B thuộc Tổng cục Địa chất.</p>
+        <p>Viện Dầu khí Việt Nam được thành lập vào ngày 22/5/1978 trên cơ sở Đoàn Nghiên cứu Địa chất Dầu khí Chuyên đề
+            36B thuộc Tổng cục Địa chất.</p>
         <!-- Vertical Menu Start-->
 
         <div class="mt-3">
@@ -141,7 +141,7 @@
                         </div>
                         <div class="offcanvas offcanvas-start offcanvas-nav">
                             <div class="offcanvas-header">
-                                <a href="#" class="text-inverse"><img src="images/logo.svg" alt="Logo"></a>
+                                <a href="#" class="text-inverse"><img src="images/full-logo.png" alt="Logo"></a>
                                 <button type="button" class="btn-close bg-primary" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                             </div>
@@ -189,7 +189,8 @@
                         <h1 class="text-info fw-bold">Viện Dầu khí <br> Việt Nam</h1>
 
                         <div class="slide-meta">
-                            <p class="h6 text-info">Viện Dầu khí Việt Nam là đơn vị khoa học–công nghệ nòng cốt, tiên phong đổi mới và giải pháp chiến lược, phát triển bền vững.</p>
+                            <p class="h6 text-info">Viện Dầu khí Việt Nam là đơn vị khoa học–công nghệ nòng cốt, tiên
+                                phong đổi mới và giải pháp chiến lược, phát triển bền vững.</p>
                         </div>
                     </div>
                 </div>
@@ -200,12 +201,14 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="slide-img" style="min-height: 100vh;">
-                                        <img src="images/slide-new-1.png" alt="Logistics warehouse management" style="height: 100vh; width: auto;">
+                                        <img src="images/slide-new-1.png" alt="Logistics warehouse management"
+                                            style="height: 100vh; width: auto;">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="slide-img">
-                                        <img src="images/slide-new-2.png" alt="Global shipping transport" style="height: 100vh; width: auto;">
+                                        <img src="images/slide-new-2.png" alt="Global shipping transport"
+                                            style="height: 100vh; width: auto;">
                                     </div>
                                 </div>
                             </div>
@@ -242,15 +245,18 @@
                         <span class="sub-title fadeInUp">
                             Về chúng tôi</span>
                         <h2 class="sec-title">Viện Dầu khí Việt Nam khoa học công nghệ</h2>
-                        <p>Thành lập năm 1978, Viện tiên phong nghiên cứu, tư vấn chiến lược, phát triển và chuyển giao công nghệ, đóng góp an ninh năng lượng, chuyển dịch năng lượng.</p>
+                        <p>Thành lập năm 1978, Viện tiên phong nghiên cứu, tư vấn chiến lược, phát triển và chuyển giao
+                            công nghệ, đóng góp an ninh năng lượng, chuyển dịch năng lượng.</p>
 
                         <ul class="check">
-                            <li>Đơn vị khoa học–công nghệ nòng cốt của Tập đoàn Công nghiệp – Năng lượng Quốc gia Việt Nam</li>
-                            <li>Trung tâm nghiên cứu, tư vấn, đào tạo và đổi mới công nghệ toàn chuỗi dầu khí – năng lượng</li>
+                            <li>Đơn vị khoa học–công nghệ nòng cốt của Tập đoàn Công nghiệp – Năng lượng Quốc gia Việt
+                                Nam</li>
+                            <li>Trung tâm nghiên cứu, tư vấn, đào tạo và đổi mới công nghệ toàn chuỗi dầu khí – năng
+                                lượng</li>
                         </ul>
                         <div class="d-sm-flex align-items-center about-footer gap-5 mt-5">
-                            <a href="#" class="btn btn-primary">Xem thêm <i
-                                    class="fa fa-arrow-right"></i><span></span> </a>
+                            <a href="#" class="btn btn-primary">Xem thêm <i class="fa fa-arrow-right"></i><span></span>
+                            </a>
 
                         </div>
                     </div>
@@ -265,8 +271,8 @@
     <section class="process-sec sec-padding position-relative overflow-hidden">
         <div class="container">
             <div class="sec-intro mx-auto text-center">
-                <span class="sub-title fadeInUp"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" fill="none"
-                        viewBox="0 0 30 18">
+                <span class="sub-title fadeInUp"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="18"
+                        fill="none" viewBox="0 0 30 18">
                         <path fill="#009c48"
                             d="M8.125 15.429h-2.5a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188h2.5c.166 0 .325.068.442.188a.65.65 0 0 1 0 .91.62.62 0 0 1-.442.188m20.313 0h-1.563a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188h1.044l.842-4.618c-.011-2.364-1.973-4.382-4.386-4.382h-4.104l-1.989 9h3.593c.166 0 .325.068.442.188a.653.653 0 0 1 0 .91.62.62 0 0 1-.442.188H17.5a.61.61 0 0 1-.488-.242.65.65 0 0 1-.122-.543L19.162 4.36a.65.65 0 0 1 .22-.361.6.6 0 0 1 .39-.14h4.603C27.476 3.857 30 6.452 30 9.642l-.949 5.261a.65.65 0 0 1-.214.377.6.6 0 0 1-.4.148" />
                         <path fill="#009c48"
@@ -279,8 +285,10 @@
             <div class="process-wrapper d-flex justify-content-between flex-wrap mt-5">
                 <div class="process-card text-center fadeInUp" data-delay=".2">
                     <span class="count mx-auto icon-lg bg-shade rounded-circle">01</span>
-                    <div class="process-thumb rounded-circle d-flex align-items-center justify-content-center" style="overflow: hidden;">
-                        <img src="images/slide-new-1.png" alt="request pickup" style="width: 100%; object-fit: contain;">
+                    <div class="process-thumb rounded-circle d-flex align-items-center justify-content-center"
+                        style="overflow: hidden;">
+                        <img src="images/slide-new-1.png" alt="request pickup"
+                            style="width: 100%; object-fit: contain;">
                     </div>
                     <h3 class="display-4">Tiếp nhận nhu cầu nghiên cứu</h3>
                     <p>Tiếp nhận đề bài nghiên cứu, tư vấn khoa học – công nghệ từ Tập đoàn và các đơn vị đối tác.</p>
@@ -288,20 +296,24 @@
 
                 <div class="process-card text-center fadeInUp" data-delay=".4">
                     <span class="count mx-auto icon-lg bg-shade rounded-circle">02</span>
-                    <div class="process-thumb rounded-circle d-flex align-items-center justify-content-center" style="overflow: hidden;">
+                    <div class="process-thumb rounded-circle d-flex align-items-center justify-content-center"
+                        style="overflow: hidden;">
                         <img src="images/slide-new-1.png" alt="request pickup" style="width: 100%;">
                     </div>
                     <h3 class="display-4">Phân tích và triển khai nghiên cứu</h3>
-                    <p>Phân tích dữ liệu, đánh giá kỹ thuật, phát triển giải pháp khoa học – công nghệ phù hợp thực tiễn.</p>
+                    <p>Phân tích dữ liệu, đánh giá kỹ thuật, phát triển giải pháp khoa học – công nghệ phù hợp thực
+                        tiễn.</p>
                 </div>
 
                 <div class="process-card text-center fadeInUp" data-delay=".6">
                     <span class="count mx-auto icon-lg bg-shade rounded-circle">03</span>
-                    <div class="process-thumb rounded-circle d-flex align-items-center justify-content-center" style="overflow: hidden;">
+                    <div class="process-thumb rounded-circle d-flex align-items-center justify-content-center"
+                        style="overflow: hidden;">
                         <img src="images/slide-new-1.png" alt="request pickup" style="width: 100%;">
                     </div>
                     <h3 class="display-4">Ứng dụng và chuyển giao công nghệ</h3>
-                    <p>ng dụng kết quả nghiên cứu, chuyển giao công nghệ và hỗ trợ triển khai vào sản xuất – kinh doanh.</p>
+                    <p>ng dụng kết quả nghiên cứu, chuyển giao công nghệ và hỗ trợ triển khai vào sản xuất – kinh doanh.
+                    </p>
                 </div>
             </div>
         </div>
@@ -329,8 +341,11 @@
                                 <path fill="#009c48"
                                     d="M17.5 15.429h-4.375a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909.62.62 0 0 1 .442-.188H17l2.84-12.857H5.625a.62.62 0 0 1-.442-.189.65.65 0 0 1 0-.909A.62.62 0 0 1 5.625 0h15a.61.61 0 0 1 .488.241.65.65 0 0 1 .122.543L18.11 14.927a.65.65 0 0 1-.22.36.6.6 0 0 1-.39.142" />
                             </svg>Vì sao chọn chúng tôi</span>
-                        <h2 class="sec-title">Lý do Viện Dầu khí Việt Nam là đơn vị khoa học – công nghệ hàng đầu ngành năng lượng</h2>
-                        <p>Viện Dầu khí Việt Nam sở hữu hơn 45 năm kinh nghiệm nghiên cứu, đội ngũ chuyên gia đầu ngành và năng lực triển khai đồng bộ trên toàn chuỗi giá trị dầu khí – năng lượng, đáp ứng yêu cầu phát triển bền vững và chuyển dịch năng lượng quốc gia.</p>
+                        <h2 class="sec-title">Lý do Viện Dầu khí Việt Nam là đơn vị khoa học – công nghệ hàng đầu ngành
+                            năng lượng</h2>
+                        <p>Viện Dầu khí Việt Nam sở hữu hơn 45 năm kinh nghiệm nghiên cứu, đội ngũ chuyên gia đầu ngành
+                            và năng lực triển khai đồng bộ trên toàn chuỗi giá trị dầu khí – năng lượng, đáp ứng yêu cầu
+                            phát triển bền vững và chuyển dịch năng lượng quốc gia.</p>
                         <div class="success-stat">
                             <div class="progress">
                                 <div class="meta">Scientific Research Capacity</div>
@@ -393,39 +408,49 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="blog-entry fadeInUp" data-delay=".2">
                         <div class="entry-thumb">
-                            <a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp"><img src="images/blog1.jpg" alt="Blog"></a>
+                            <a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp"><img
+                                    src="images/blog1.jpg" alt="Blog"></a>
                         </div>
                         <div class="entry-meta">
                             <span><a href="#"><i class="fa-regular fa-user"></i> Adam Smith</a></span>
                             <span><i class="fa-regular fa-calendar-days"></i> 05 Dec 2025</span>
                         </div>
-                        <h3 class="display-4"><a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp">VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp</a></h3>
+                        <h3 class="display-4"><a
+                                href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp">VPI và
+                                Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp</a></h3>
 
                     </div>
                 </div><!--  Blog Entry End -->
                 <div class="col-xl-4 col-md-6">
                     <div class="blog-entry fadeInUp" data-delay=".4">
                         <div class="entry-thumb">
-                            <a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp"><img src="images/blog2.jpg" alt="Blog"></a>
+                            <a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp"><img
+                                    src="images/blog2.jpg" alt="Blog"></a>
                         </div>
                         <div class="entry-meta">
                             <span><a href="#"><i class="fa-regular fa-user"></i> Adam Smith</a></span>
                             <span><i class="fa-regular fa-calendar-days"></i> 05 Dec 2025</span>
                         </div>
-                        <h3 class="display-4"><a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp">VPI và OC Global hợp tác nghiên cứu phát triển cảng hậu cần phục vụ điện gió ngoài khơi tại Việt Nam</a></h3>
+                        <h3 class="display-4"><a
+                                href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp">VPI và OC
+                                Global hợp tác nghiên cứu phát triển cảng hậu cần phục vụ điện gió ngoài khơi tại Việt
+                                Nam</a></h3>
 
                     </div>
                 </div><!--  Blog Entry End -->
                 <div class="col-xl-4 col-md-6">
                     <div class="blog-entry fadeInUp" data-delay=".6">
                         <div class="entry-thumb">
-                            <a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp"><img src="images/blog3.jpg" alt="Blog"></a>
+                            <a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp"><img
+                                    src="images/blog3.jpg" alt="Blog"></a>
                         </div>
                         <div class="entry-meta">
                             <span><a href="#"><i class="fa-regular fa-user"></i> Adam Smith</a></span>
                             <span><i class="fa-regular fa-calendar-days"></i> 05 Dec 2025</span>
                         </div>
-                        <h3 class="display-4"><a href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp">VPI giữ vai trò hạt nhân nghiên cứu khoa học, đổi mới sáng tạo của Petrovietnam</a></h3>
+                        <h3 class="display-4"><a
+                                href="VPI và Topsoe tổ chức Hội thảo về các công nghệ phát thải carbon thấp">VPI giữ vai
+                                trò hạt nhân nghiên cứu khoa học, đổi mới sáng tạo của Petrovietnam</a></h3>
 
                     </div>
                 </div><!--  Blog Entry End -->
@@ -550,9 +575,13 @@
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/custom.js"></script>
 
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"389fa74406c44f21b129709ce8a3ec16","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+        data-cf-beacon='{"version":"2024.11.0","token":"389fa74406c44f21b129709ce8a3ec16","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+        crossorigin="anonymous"></script>
     <script>
-        (function() {
+        (function () {
             function c() {
                 var b = a.contentDocument || a.contentWindow.document;
                 if (b) {
@@ -574,8 +603,8 @@
                 if ('loading' !== document.readyState) c();
                 else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
                 else {
-                    var e = document.onreadystatechange || function() {};
-                    document.onreadystatechange = function(b) {
+                    var e = document.onreadystatechange || function () { };
+                    document.onreadystatechange = function (b) {
                         e(b);
                         'loading' !== document.readyState && (document.onreadystatechange = e, c())
                     }
