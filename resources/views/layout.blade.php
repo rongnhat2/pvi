@@ -73,7 +73,7 @@
                 <ul class="vertical-menu">
                     <li><a href="/about">Giới thiệu</a></li>
                     <li><a href="/product">Sản phẩm</a></li>
-                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="/service">Dịch vụ</a></li>
                     <li><a href="#">Tuyển dụng</a></li>
                     <li><a href="/contact">Liên hệ</a></li>
                 </ul>
@@ -159,7 +159,7 @@
                                         <a class="nav-link " href="/product">Sản phẩm</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link " href="#">Dịch vụ</a>
+                                        <a class="nav-link " href="/service">Dịch vụ</a>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link " href="#">Tuyển dụng</a>

@@ -25,6 +25,10 @@ class DisplayController extends Controller
     {
         return view('contact');
     }
+    public function service()
+    {
+        return view('services');
+    }
 
     //
 }
